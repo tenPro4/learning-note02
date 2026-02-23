@@ -1,0 +1,26 @@
+e-Invoicing in Malaysia has been mandated by the Inland Revenue Board of Malaysia (LHDN) since August 2024. Under this mandate, all businesses are required to issue and receive electronic invoices in real time, following the prescribed format. 
+
+The rollout is phased, based on annual revenue thresholds, to allow businesses to gradually adapt. All B2B, B2C, and B2G transactions must be validated in real time through the government’s MyInvois system.
+
+Key Takeaways:
+
+- [5th January 2020 Update] Malaysia’s e-Invoicing now follows a four-phase rollout; businesses with turnover up to RM5 million must comply from 1 January 2026, with relaxation period extended until 31 December 2026.
+- The e-Invoicing exemption threshold has been increased to RM1 million as per the guidelines published on 7th December by IRBM.
+- All B2B, B2C, and B2G transactions require e-invoices, including cross-border trade where Malaysian buyers must self-bill for imports.
+- Starting 1 January 2026, individual e-invoices are mandatory for transactions above RM10,000, no more consolidated invoices allowed.
+- Non-compliance may lead to fines up to RM20,000 or 6 months' imprisonment under tax law.
+
+What are the requirements for e-invoicing in Malaysia?
+1. e-Invoices must be generated for B2B, B2C, and B2G transactions in UBL 2.1 format (XML or JSON)
+2. e-Invoices can be generated and submitted either manually via the MyInvois Portal or automatically through direct API integration.
+3. Each e-invoice must include 55 specific data fields, covering seller and buyer details, transaction items, quantities, prices, taxes, totals, and payment information.
+4. All e-invoices must be digitally signed using a Digital Certificate issued by IRBM.
+
+e-Invoicing Process for B2B Transactions
+
+1. Issuance: Supplier creates and sends e-Invoice to IRBM via MyInvois Portal or Business system integrated with MyInvois System via API. 
+2. Validation: IRBM validates the e-invoice in real-time. A Unique Identifier Number is issued. 
+3. Notification: IRBM notifies both supplier and buyer of the validated e-invoice. 
+4. Sharing: Supplier shares validated e-Invoice with buyer, including a QR code. 
+5. Rejection/Cancellation: Within 72 hours, the buyer can request rejection and the supplier can cancel. However, justification is required for any changes and rejection.
+6. Sharing Human Readable format: Suppliers can then share human readable (PDF, JPG) format of the e-invoice. 

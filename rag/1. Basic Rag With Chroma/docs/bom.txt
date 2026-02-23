@@ -1,0 +1,45 @@
+A bill of materials or product structure (sometimes bill of material, BOM or associated list) is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture an end product. A BOM may be used for communication between manufacturing partners or confined to a single manufacturing plant. A bill of materials is often tied to a production order whose issuance may generate reservations for components in the bill of materials that are in stock and requisitions for components that are not in stock.
+
+The first hierarchical databases were developed for automating bills of materials for manufacturing organizations in the early 1960s. At present, this BOM is used as a database to identify the many parts and their codes in automobile manufacturing companies.
+
+A BOM can also be visually represented by a product structure tree, although they are rarely used in the workplace.[1] For example, one of them is Time-Phased Product Structure[2] where this diagram illustrates the time needed to build or acquire the needed components to assemble the final product. For each product, the time-phased product structure shows the sequence and duration of each operation.
+
+Structure
+==========
+BOMs are of hierarchical nature, with the top level representing the finished product which may be a sub-assembly or a completed item. BOMs that describe the sub-assemblies are referred to as modular BOMs. An example of this is the NAAMS BOM (North American Automotive Metric Standard) that is used in the automotive industry to list all the components in an assembly line. The structure of the NAAMS BOM is System, Line, Tool, Unit and Detail.
+
+A bill of materials "implosion" links component pieces to a major assembly, while a bill of materials "explosion" breaks apart each assembly or sub-assembly into its component parts.
+
+Usage
+=======
+In process industries, the BOM is also known as the formula, recipe, or ingredients list. The phrase "bill of material" (or "BOM") is frequently used by engineers attributively to refer not to the literal bill, but to the current production configuration of a product, to distinguish it from modified or improved versions under study or in test.
+
+In electronics, the BOM represents the list of components used on the printed circuit board (PCB). Once the design of the circuit is completed, the BOM list is passed on to the PCB layout engineer as well as the component engineer who will procure the components required for the design.
+
+Types
+====
+
+A BOM can define products as they are designed (engineering bill of materials), as they are ordered (sales bill of materials), as they are built (manufacturing bill of materials), or as they are maintained (service bill of materials). The different types depend on the business need and use for which they are intended.
+
+Sometimes the term "pseudo-bill of materials" or "pseudo-BOM" is used to refer to a more flexible or simplified version. Often a place-holder part number is used to represent a group of related (usually standard) parts that have common attributes and are interchangeable in the context of this BOM.[3]
+
+A modular BOM (or variant parts list) can be displayed in the following formats:
+
+A single-level BOM (or unit list) that displays the assembly or sub-assembly with only one level of children. Thus it displays the components directly needed to make the assembly or sub-assembly.
+An indented BOM (or structural parts list) that displays the highest-level item closest to the left margin and the components used in that item indented more to the right.[1]
+Modular (planning) BOM
+A single-level BOM resolved to list the effectively needed quantities of components to produce a product (rather than to list each individual part by its logical name) is also called quantity synopsis parts list.
+
+Configurable BOM
+A configurable bill of materials (CBOM) is a form of BOM used by industries that have multiple options and highly configurable products (e.g. telecom systems, data-center hardware (SANS, servers, etc.), PCs, cars).[5]
+
+The CBOM is used to dynamically create "end-items" that a company sells. The benefit of using CBOM structure is that it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by "configurator" software, however it can be enabled manually (manual maintenance is infrequent because it is unwieldy to manage the number of permutations and combinations of possible configurations). The development of the CBOM is dependent on having a modular BOM structure in place. The modular BOM structure provides the assemblies/sub-systems that can be selected to "configure" an end-item.
+
+While most configurators utilize top-down hierarchical rules syntax to find appropriate modular BOMs, maintenance of very similar BOMs (i.e., only one component is different for various voltages) becomes highly excessive. A newer approach, (bottom-up/rules-based structuring) utilizing a proprietary search engine scheme transversing through selectable componentry at high speeds eliminates the planning modular BOM duplications.[citation needed] The search engine is also used for all combinatorial feature constraints and graphical user interface (GUI) representations to support specification selections.
+
+To decide which assembly variant of the parts or components is to be chosen, they are attributed by the product options which are the characteristic features of the product. If the options of the product build an ideal Boolean algebra,[6] it is possible to describe the connection between parts and product variants with a Boolean expression, which refers to a subset of the set of products.[7][8][9]
+
+Parts which will not be assembled at all in one or more variants are typically marked as "DNP" (for "do not populate" or "do not place") in the affected variants. Other less frequently used designators for this include "NP" ("no placement", "not placed"), "NF" ("no fit", "not fitting"), "DNM" ("do not mount"), "NM" ("not mounted"), "NU" ("not used"), "DNI" ("do not install", "do not insert"), "DNE" ("do not equip"), "DNA" ("do not assemble"), "DNS" ("do not stuff"), "NOFIT" etc.[nb 1]
+
+Multi-level BOM
+A multi-level bill of materials (BOM), referred to as an indented BOM, is a bill of materials that lists the assemblies, components, and parts required to make a product in a parent-child, top-down method. It provides a display of all items that are in parent-children relationships. When an item is a sub-component, of a (parent) component, it can in-turn have its own child components, and so on. The resulting top-level BOM (item number) would include children; a mix of finished sub-assemblies, various parts and raw materials. A multi-level structure can be illustrated by a tree with several levels. In contrast, a single-level structure only consists of one level of children in components, assemblies and material.

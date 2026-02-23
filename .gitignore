@@ -1,0 +1,77 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python metadata
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+
+# DB
+db/
+
+# Virtual environment
+# .venv/
+# env/
+# venv/
+# ENV/
+# env.bak/
+# venv.bak/
+
+# Miscellaneous common files
+*.swp
+*.bak
+*.pyc.promise
+*.pyp
+*.ptl
+.hgtags
+.hgcheck
+.hgignore
+.hgflow
+.hgsflow
+.hg/
+.mypy_cache/
+.pyre/
+.pytest_cache/
+.ruff_cache/
+.dccache/
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints
+.ipynb_checkpoints/
+# The following ignores the checkpoint directory at any level
+**/.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Env files (sensitive information)
+.env
+.flaskenv
+
+# IDE-specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/

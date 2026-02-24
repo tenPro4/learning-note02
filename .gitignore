@@ -30,7 +30,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # DB
-db/
+db*/
 
 # Virtual environment
 # .venv/

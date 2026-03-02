@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16 # Official image with pgvector pre-installed
+    container_name: langgraph_db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=langgraph_memory
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+    volumes:
+      - pgdata:/var/lib/postgresql/data # Persistence: keeps data after restart
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U myuser -d langgraph_memory"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_ui
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "8888:80"
+    depends_on:
+      - postgres
+
+volumes:
+  pgdata:

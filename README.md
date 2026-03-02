@@ -1,10 +1,15 @@
 ## Jupyter standard Shortcuts
 
 **Switch command mode:** ESC
+
 **Change to markdown:** M
+
 **Change to Code:** Y
+
 **Change to Raw:** R
+
 **Execute and move to next cell:** Shift + Enter
+
 **Just Excute cell:** Ctrl + Enter
 
 For example, to switch code mode to markdown: `ESC + M`

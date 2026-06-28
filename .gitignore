@@ -73,5 +73,5 @@ ipython_config.py
 .flaskenv
 
 # IDE-specific files (e.g., VS Code, PyCharm)
-.vscode/
+# .vscode/
 .idea/

@@ -1,0 +1,8 @@
+{
+    "nuxt.isNuxtApp": false,
+     "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Summarize the change with a title using Conventional Commits format: <type>: <short description>. Choose the most accurate <type> from: feat (new features), fix (bug fixes), refactor (code restructuring), style (formatting, semi-colons), docs (documentation), perf (performance improvements), test (adding/updating tests), or chore (maintenance/dependencies). Follow the title with a blank line, and then describe the functional changes in detail using bullet points.",
+        }
+    ]
+}
